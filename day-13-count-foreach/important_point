@@ -1,0 +1,17 @@
+
+Which One Should You Use?
+✅ Use count when:
+
+You need a fixed number of identical resources.
+The order of resources is not important.
+You are working with a simple list.
+✅ Use for_each when:
+
+You need unique resource names or properties.
+You are working with a map or a set.
+You want to avoid unnecessary re-creation of resources.
+Final Thoughts
+If you just need a specific number of resources, go with count.
+If each resource needs a unique name or property, use for_each.
+If you are working with a map or set, for_each is the better choice.
+If you want to avoid resource recreation due to index shifting, for_each is safer.
